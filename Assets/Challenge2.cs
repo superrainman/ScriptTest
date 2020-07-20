@@ -43,10 +43,12 @@ public class Challenge2 : MonoBehaviour {
 		lastboss.Attack();
 		lastboss.Defence(3);
 
-		for (int i=0; i<10; i++)
+		for (int i=0; i<10; i++) //Magic関数を10回呼び出し
 		{
 			lastboss.Magic();
 		}
+
+		lastboss.Magic(); //更に呼び出し
 
 	} //Start End
 	
